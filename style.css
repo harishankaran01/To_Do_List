@@ -1,0 +1,74 @@
+#todos{
+    width: 83%;
+    height: 250px;
+    margin: 10px 30px;
+    overflow:auto;
+   
+}
+.container{
+    background-color: #99a2a6;
+}
+#p {
+    margin: 20px 5px 5px 34px;
+    color: forestgreen;
+    font-size: larger;
+    font-weight: 700;
+    display: inline-block;
+}
+p{
+    cursor:pointer ;
+}
+.inp {
+    margin: 0px 25px;
+    padding: 5px;
+}
+
+.input1 {
+    background-color: #d7cfcf;
+    width: 71%;
+    padding: 5px;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+}
+.input1:focus{
+    border: 2px solid forestgreen;
+
+}
+button {
+    width: 25%;
+    border-radius: 5px;
+    margin: 0 0 0 10px;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    box-shadow: 4px 4px 0 rgb(22, 102, 22);
+    color: aliceblue;
+    transform: translateY(-2px);
+
+}
+
+button:active {
+    box-shadow: 0px 0px 0 forestgreen;
+    transform: translate(4px);
+
+}
+.task{
+    background-color: rgb(181, 184, 184);
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.completed {
+    border: 2px solid rgb(181, 39, 86);
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+i{
+    font-size: 20px;
+    color: forestgreen;
+    margin: 0;
+}
